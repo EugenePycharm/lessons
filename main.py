@@ -74,3 +74,16 @@
 # print(chapter.ljust(15), page.rjust(15))
 # print(chapter2.ljust(15), page2.rjust(15))
 # print(chapter3.ljust(15), page3.rjust(15))
+# x = "123456789"
+# print(x[::2])
+# print(x[::-1])
+# print(x[::-2])
+# x = "12'345'678"
+# num = int(temp)
+# print(num)
+# temp = x.split("'")
+# temp2 = temp[0] + temp[1] + temp[2]
+# num = int(temp2)
+# print(num)
+# temp = x.replace("'", "")
+# print(temp)
