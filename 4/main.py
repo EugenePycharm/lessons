@@ -45,8 +45,8 @@
 #     print('положительное')
 # else:
 #     print('равно')
-year = int(input('Год: '))
-if year % 4 == 0 or year % 400 == 0 and year % 100 == 0:
-    print('Весокосный')
-else:
-    print('Не весокосный')
+# year = int(input('Год: '))
+# if year % 4 == 0 or year % 400 == 0 and year % 100 == 0:
+#     print('Весокосный')
+# else:
+#     print('Не весокосный')
