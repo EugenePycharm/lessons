@@ -32,49 +32,16 @@
 #     lst1.append(randint(r_start, r_end))
 #     lst2.append(randint(r_start, r_end))
 #
-# set1 = set(lst1)
-# set2 = set(lst2)
-# overall = set1.intersection(set2)
-# print(f"Всего {len(overall)}")
-# print(f"Кол-во генераций: {size}")
-# print(f"Минимальное: {min(overall)}")
-# print(f"Максимальное: {max(overall)}")
-# print(sorted(overall))
-# set1 = set()  # создание пустого множества
-# insert = ""
-# while insert != "end":
-#     insert = input("Число: ")
-#     if insert.lstrip("-").isdigit():
-#         if insert not in set1:
-#             print("НЕТ")
-#             set1.add(insert)
-#         else:
-#             print("ДА")
-#     elif insert == "end":
-#         break
-#     else:
-#         print("number!!!")
-# lst1 = [0, False, 1 - 1, "один", 2, 3.14]
-# print(f"{lst1} - возможно есть повторения")
-# set1 = set(lst1)
-# print(f"{set1} - точно повторений нет")
-# if len(lst1) != len(set1):
-#     print("Повторения есть")
-# else:
-#     print("Повторений нет")
-# print(f"Повторений: {len(lst1) - len(set1)}")
-# symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '=', '-', ',', '.', '?', '>', '<', "'", '"', '/',
-#            ':', ';']
-# phrase = "Я люблю movavi, программирование, а ещё я люблю пельмени!"
-# text = ""
-# for char in phrase:
-#     if char not in symbols:
-#         text = text + char
-# text = text.split(" ")
-# print(text)
-# s = set(text)
-# print(s)
-# print(f"Различных слов {len(s)}")
+# set1 = set(lst1) set2 = set(lst2) overall = set1.intersection(set2) print(f"Всего {len(overall)}") print(f"Кол-во
+# генераций: {size}") print(f"Минимальное: {min(overall)}") print(f"Максимальное: {max(overall)}") print(sorted(
+# overall)) set1 = set()  # создание пустого множества insert = "" while insert != "end": insert = input("Число: ")
+# if insert.lstrip("-").isdigit(): if insert not in set1: print("НЕТ") set1.add(insert) else: print("ДА") elif insert
+# == "end": break else: print("number!!!") lst1 = [0, False, 1 - 1, "один", 2, 3.14] print(f"{lst1} - возможно есть
+# повторения") set1 = set(lst1) print(f"{set1} - точно повторений нет") if len(lst1) != len(set1): print("Повторения
+# есть") else: print("Повторений нет") print(f"Повторений: {len(lst1) - len(set1)}") symbols = ['!', '@', '#', '$',
+# '%', '^', '&', '*', '(', ')', '_', '+', '=', '-', ',', '.', '?', '>', '<', "'", '"', '/', ':', ';'] phrase = "Я
+# люблю movavi, программирование, а ещё я люблю пельмени!" text = "" for char in phrase: if char not in symbols: text
+# = text + char text = text.split(" ") print(text) s = set(text) print(s) print(f"Различных слов {len(s)}")
 gen = {}
 n = int(input("Кол-во связей: "))
 for _ in range(n):
